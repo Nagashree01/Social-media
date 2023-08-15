@@ -9,7 +9,6 @@ import { RequireAuth } from "./components/requireAuth/RequireAuth";
 import { Explore } from "./pages/explore/Explore";
 import { Bookmark } from "./pages/bookmark/Bookmark";
 import { Profile } from "./pages/profile/Profile";
-import { SinglePost } from "./pages/singlepost/SinglePost";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -51,14 +50,6 @@ function App() {
           element={
             <RequireAuth>
               <Profile />
-            </RequireAuth>
-          }
-        />
-        <Route
-          path="/post/:postId"
-          element={
-            <RequireAuth>
-              <SinglePost />
             </RequireAuth>
           }
         />
