@@ -1,0 +1,39 @@
+.new-post-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: auto;
+    padding: 5px;
+    gap: 5px;
+}
+
+.text-area-container{
+    width: 100%;
+}
+.new-post-details{
+ display: flex;
+}
+.post-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.text-area-container textarea{
+    width: -webkit-fill-available;
+    border: none;
+}
+
+.text-area-container textarea:focus{
+    outline: none;
+}
+
+.post-btn{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    font-size: 1.1rem;
+}
+.post-btn:hover{
+    background-color: black;
+    color: white;
+}

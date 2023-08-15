@@ -1,0 +1,54 @@
+.postcard{
+    display:flex;
+    flex-direction: column;
+    padding: 7px 2px 0px 2px;
+    border:1px solid;
+}
+.postedBy-user-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postedBy-details{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+.delete-icon{
+    font-size: 1.5rem;
+}
+
+.postcard .profile-img{
+    border-radius: 50%;
+    border: 1px solid ;
+}
+
+.postedBy-name{
+    font-weight: 550;
+}
+
+.postedBy-username{
+    color: #818589;
+}
+
+.content{
+    padding: 10px 0px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid;
+}
+
+.post-card-icon{
+    font-size: 1.8rem;
+}
+
+.post-card-icons-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
+
+.like-icon-container{
+    display: flex;
+    align-items: center;
+}

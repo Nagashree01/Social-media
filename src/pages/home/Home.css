@@ -1,0 +1,51 @@
+.home-page-layout{
+    display: grid;
+    grid-template-columns: 180px 2fr 1fr;
+    grid-template-areas:
+      'nav-bar main suggested-user'
+      'nav-bar main suggested-user';
+}
+
+.side-nav{
+    grid-area: nav-bar;
+}
+
+.main-section{
+    grid-area: main;
+}
+.suggested-users{
+    grid-area: suggested-user;
+}
+
+.home-heading{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* sort-container */
+.sort-container{
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.sort-icon{
+    position: relative;
+}
+.sort-options{
+    position: absolute;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+    color:black;
+    z-index: 4;
+    padding: 2px;
+}
+.sort-options li{
+    padding: 2px;
+}

@@ -1,0 +1,32 @@
+.side-nav-bar{
+    
+    height: 100vh;
+    width: fit-content;
+    position: fixed;
+    display: flex;
+    flex-direction: column;font-size: 1.5rem;
+}
+li{
+    list-style-type: none;
+}
+.side-nav-bar-items{
+    padding: 60px 5px; 
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.nav-bar-links{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.home-icon{
+   font-size: 2rem; 
+}
+
+@media screen and (max-width:800px)  {
+    .side-nav-bar-item-name{
+        display: none;
+    }
+}

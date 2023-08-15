@@ -1,0 +1,69 @@
+.profile-page-layout{
+    display: grid;
+    grid-template-columns: 180px 2fr 1fr;
+    grid-template-areas:
+      'nav-bar main suggested-user'
+      'nav-bar main suggested-user';
+    
+}
+
+.side-nav{
+    grid-area: nav-bar;
+}
+
+.profile-main-section{
+    grid-area: main;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    
+    
+}
+.suggested-users{
+    grid-area: suggested-user;
+}
+
+.profile-heading{
+    border-bottom: 1px solid;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.profile-info-container{
+    padding: 10px 5px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:0.8rem;
+}
+.followers-following-info{
+    display: flex;
+    gap:0.5rem;
+}
+.edit-profile-button{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.posts-by-username-heading{
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+.profile-page-layout .posts-by-user{
+    display: flex;
+    flex-direction: column;
+    
+}
